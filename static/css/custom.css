@@ -1,0 +1,31 @@
+
+
+#home_page h1 {
+    color: #4caf7d;
+}
+.dark #home_page h1{
+    color: white;
+}
+
+#sidebar_wrapper, #menu_wrapper {
+    display: none !important;
+}
+
+#navbar {
+    display: none !important;
+}
+
+#article {
+    width: 100% !important;
+}
+
+#toc {
+    top: 0 !important;
+}
+
+@media screen and (max-width: 900px) {
+    #home_page h1 {
+        color: #eb4848;
+    }
+}
+
